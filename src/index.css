@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .choices {
+    @apply py-2 px-3 border-solid border-[1px] border-slate-600 rounded-lg cursor-pointer;
+  }
+
+  .choices:hover {
+    @apply bg-purple-600 bg-none text-slate-200 duration-200 ease-in-out;
+  }
+}
